@@ -1,0 +1,70 @@
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+
+  margin-bottom: 32px
+}
+/* line height eh a altura da linha e font weight eh o peso dela para ser em 
+negrito = bold ou normal = normal */
+/* da pra usar a tag h1 e colocar o atributo span que tem dentro
+dela pra selecionar somente aquela tag do html pra mudar somente a fonte
+do span */
+h1 span {
+  font-weight: bold;
+}
+/* essas fonts foram encontradas no site google fonts, que disponibiliza
+o codigo para usar no css */
+body {
+  font-family: "Open Sans", sans-serif;
+
+  text-align: center;
+  margin: 0;
+}
+
+span, a {
+  color: #ff9900;
+}
+
+p, #footer {
+  color: #7d7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+/* margin é a margem que vai alinhar a div, no caso depois de colocar a 
+limitação dela ao mecher na largura/width, fazendo assim o text-align center
+perder parte do pode deixando somente o conteúdo da caixa alinhado */
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
+
+
+}
+
+/* a margin funciona como relgio a primeria especificação fica pra cima, a segunda pra direita, terceira para baixo, quarta para esquerda, caso aja somente
+três especificações, a primeira é cima, segunda é para os lados, e terceira para baixo */
+#hero img {
+  margin-bottom: 72px;
+}
+
+#footer a + a{
+  margin-left: 28px;
+  
+}
+
+#line {
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 8px;
+  
+
+  border: 1px solid #eceff2;
+  /* dashed ao inves de solid faz uns tracinhos */
+}
+
+#balls{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
